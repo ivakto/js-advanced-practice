@@ -9,7 +9,7 @@ function solve(input) {
     for (let row = 0; row < size; row++) {
         let line = '';
         for (let col = 0; col < size; col++) {
-            line += '*';
+            line += '* ';
         }
         console.log(line);
     }
