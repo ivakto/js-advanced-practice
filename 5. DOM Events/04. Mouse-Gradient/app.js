@@ -6,10 +6,10 @@ function attachGradientEvents() {
     gradient.addEventListener('mouseout', onMouseOut);
 
     function onMouseMove(event) {
-        output.textContent = Math.floor(event.offsetX / gradient.offsetWidth * 100) + '%'; 
+        output.textContent = Math.floor(event.offsetX / 300 * 100) + '%'; 
     }
 
     function onMouseOut() {
-        output.textContent = '';
+        output.textContent = ' ';
     }
 }
