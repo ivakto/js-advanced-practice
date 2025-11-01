@@ -1,3 +1,10 @@
+/* Write a class that represents a personal record. It has the following properties, all set from the constructor:
+· firstName
+· lastName
+· age
+· email
+And a method toString(), which prints a summary of the information. See the example for formatting details.  */
+
 class Person {
     firstName;
     lastName;
